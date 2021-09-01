@@ -10,8 +10,5 @@ letter = input("type value here:")
 
 
 # returns first occurrence of Substring
-result = word.find('letter')
+result = word.find(letter)
 print ("String 'letter' found at index:", result )
-  
-
-  

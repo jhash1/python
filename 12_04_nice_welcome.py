@@ -4,10 +4,21 @@
 # then use only their first name to overstep some personal boundaries
 # in your welcome message.
 
-name = input("say your name:")
-first = name[0]
-print(f"Welcome to the script, {first}")
+# Write a script that takes a string of words and a letter from the user.
+# Find the index of first occurrence of the letter in the string. For example:
+#
+# String input: hello world
+# Letter input: o
+# Result: 4
 
+word = input("what is your name: ")
+
+# returns first occurrence of Substring
+result = word.find(' ')
+
+name = word[:result]
+print (name)
+print(result)
 
 
 

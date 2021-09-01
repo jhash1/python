@@ -2,6 +2,15 @@
 # then prints the same sentence back to them in aLtErNaTiNg CaPs.
 
 
+program = input("type in a word: ")
 
-program = input(" type a sarcastic sentence: ")
-print(program.replace("", "&", 2))
+result = ''
+index = 0
+
+for char in program:
+    if index % 2 == 0:
+        result += char.upper()
+    else:
+        result += char.lower()
+    index +=1
+print(result)

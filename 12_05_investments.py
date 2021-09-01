@@ -6,9 +6,10 @@
 # Calculate the future values and print them to the console.
 
 amount = input("Type in a value: ")
-interestrate = int(input("Type in a rate: "))
-rate = amount * interestrate
+interestrate = float(input("Type in a rate: "))
+
+rate = .1 * interestrate
 years = input("How many years do you want to invest: ")
 
-print(int(years) * int(rate) * int(amount))
+print(int(years) * float(rate) * int(amount))
 

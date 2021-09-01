@@ -7,5 +7,5 @@ program = int(input("Pick a number between 1 and 1,000,000,000: "))
 if  program % 3 == 0:
     print("yes")
 else: 
-    print("nope")
+    print("nope", program)
 

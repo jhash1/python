@@ -6,11 +6,13 @@
 # Result: §ore python progra§§ing please
 
 
+symbol = '$'
+words = 'hello world'
 
-symbol = input("write a symbol: ")
-words = input("type something: ")
+vowels = 'aeiou'
 
-
-for i in range(words):
-    for x in (words):
-        if x == "aeiou":
+for char in words:
+    for vowel in vowels:
+        if char == vowel:
+            char = symbol
+    print(char, end='')
