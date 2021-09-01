@@ -4,10 +4,10 @@
 # If the user enters the word "quit", you can exit the program
 # using a functionality provided by this module.
 
+
 import sys
 
-infinity = "True"
-
-user1 = input("word: ")
+user1 = input("type a word or type quit to end: ")
 while infinity == True:
-    print ("x")
+    if user1 == "quit":
+        infinity == False
