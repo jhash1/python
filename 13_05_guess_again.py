@@ -11,13 +11,14 @@ guess = random.randint(1,10)
 count = 0
 
 value = input("Guess a number between 1 and 10:")
-while guess != value and count < 4:
-    count += 1
-    if guess == value:
+    while guess != value:
+count += 1
         print("you win")
-        break
-    else:
-        input("type a new number between 1 and 10:")
+
+
+# use a number generator to create random num between x and y
+# create an input to ask user to guess a number
+# create counter to start at 0 and increment to 4
+# print "you lose if number is not guessed and tries hit 4"
 
         
-    

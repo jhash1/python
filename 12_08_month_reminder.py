@@ -13,6 +13,9 @@ data = int(usermonth)
 for index in range(len(months)):
     if index == data:
         print(index, months[index])
+        break
+    elif index != data:
+        print(index)
         
 
 

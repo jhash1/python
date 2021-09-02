@@ -7,7 +7,10 @@
 
 import sys
 
-user1 = input("type a word or type quit to end: ")
-while infinity == True:
-    if user1 == "quit":
-        infinity == False
+phrase += "hello there"
+
+user1 = input("phrase :")
+while phrase != quit:
+    print("")
+    if phrase == quit:
+        break

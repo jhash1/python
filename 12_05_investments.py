@@ -8,8 +8,9 @@
 amount = input("Type in a value: ")
 interestrate = float(input("Type in a rate: "))
 
+time = years * 12
 rate = .1 * interestrate
 years = input("How many years do you want to invest: ")
 
-print(int(years) * float(rate) * int(amount))
+print((int(years) * float(rate)) * (int(amount)))
 
