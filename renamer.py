@@ -6,11 +6,10 @@
 
 # Move and rename all screenshots
 
-
+from os import pardir
 import pathlib
 
-path = pathlib.Path().cwd()
-
-for filepath in path.iterdir():
-    print(filepath)
-    
+folders = pardir.__str__
+pathlib.Path = '/Users/John/Desktop'
+for folders in pathlib.Path:
+    print(folders)
