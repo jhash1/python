@@ -22,3 +22,17 @@ office = [
     {"full_name": "Creed Bratton", "item": "mung beans"},
     {"full_name": "Darryl Philbin", "item": "forklift"},
 ]
+
+
+# thing = [j['item'] for j in office]
+
+for j in office:
+    thing = j['item']
+print(thing)
+# name = [k['full_name'] for k in office]
+# for a in name:
+#     a.split(" ")
+#     first = a[:1]
+# print(first)
+
+
